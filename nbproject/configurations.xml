@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="89">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="include" displayName="include" projectFiles="true">
+      <itemPath>include/BinaryRandomWalk.h</itemPath>
+      <itemPath>include/Cronometro.h</itemPath>
+      <itemPath>include/DPBase.h</itemPath>
+      <itemPath>include/DataPoints.h</itemPath>
+      <itemPath>include/DataPointsSet.h</itemPath>
+      <itemPath>include/FileRawBuffer.h</itemPath>
+      <itemPath>include/GeneralUsage.h</itemPath>
+      <itemPath>include/ProbabilityBase.h</itemPath>
+      <itemPath>include/RWVBase.h</itemPath>
+      <itemPath>include/RandomNumberGenerator.h</itemPath>
+      <itemPath>include/RandomWalkVecSet.h</itemPath>
+      <itemPath>include/RandomWalkVector.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="source" displayName="source" projectFiles="true">
+      <itemPath>source/BinaryRandomWalk.cpp</itemPath>
+      <itemPath>source/Cronometro.cpp</itemPath>
+      <itemPath>source/DataPoints.cpp</itemPath>
+      <itemPath>source/DataPointsSet.cpp</itemPath>
+      <itemPath>source/FileRawBuffer.cpp</itemPath>
+      <itemPath>source/GeneralUsage.cpp</itemPath>
+      <itemPath>source/ProbabilityBase.cpp</itemPath>
+      <itemPath>source/RandomNumberGenerator.cpp</itemPath>
+      <itemPath>source/RandomWalkVecSet.cpp</itemPath>
+      <itemPath>source/RandomWalkVector.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>source</Elem>
+    <Elem>include</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <architecture>2</architecture>
+          <standard>8</standard>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="include/BinaryRandomWalk.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Cronometro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/DPBase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/DataPoints.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/DataPointsSet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/FileRawBuffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/GeneralUsage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ProbabilityBase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/RWVBase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/RandomNumberGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/RandomWalkVecSet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/RandomWalkVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/BinaryRandomWalk.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/Cronometro.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/DataPoints.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/DataPointsSet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/FileRawBuffer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/GeneralUsage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/ProbabilityBase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/RandomNumberGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/RandomWalkVecSet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/RandomWalkVector.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <architecture>2</architecture>
+          <standard>8</standard>
+          <incDir>
+            <pElem>include</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+      <item path="include/BinaryRandomWalk.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/Cronometro.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/DPBase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/DataPoints.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/DataPointsSet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/FileRawBuffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/GeneralUsage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ProbabilityBase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/RWVBase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/RandomNumberGenerator.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/RandomWalkVecSet.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/RandomWalkVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="source/BinaryRandomWalk.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/Cronometro.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/DataPoints.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/DataPointsSet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/FileRawBuffer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/GeneralUsage.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/ProbabilityBase.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/RandomNumberGenerator.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/RandomWalkVecSet.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="source/RandomWalkVector.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
